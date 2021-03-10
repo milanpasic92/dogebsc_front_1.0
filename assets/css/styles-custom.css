@@ -10,3 +10,13 @@
 #introduction{
 	flex-direction: row;
 }
+
+#startearning .slider-card{
+	width: 500px;
+	height: 310px;
+	justify-content: flex-start;
+}
+
+.feature-wrap{
+	margin-bottom: 3rem;
+}

@@ -307,7 +307,7 @@ ol {
   grid-template-columns: 1fr 0.75fr;
 }
 
-.grid-hero.kava-landing {
+.grid-hero.dogebsc-landing {
   height: auto;
   padding-top: 125px;
   padding-bottom: 80px;
@@ -791,7 +791,7 @@ ol {
   margin-right: 0px;
 }
 
-.transparent-button.kava-cta {
+.transparent-button.dogebsc-cta {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -824,7 +824,7 @@ ol {
   color: #534eff;
 }
 
-.transparent-button.kava-cta:hover {
+.transparent-button.dogebsc-cta:hover {
   padding-right: 60px;
   background-color: #534eff;
   background-image: url("https://assets.website-files.com/602ec5c64ccd0a3919e9ef6c/602ec5c64ccd0a5a3de9f03c_arrow-right-wt.svg");
@@ -834,12 +834,12 @@ ol {
   color: #fff;
 }
 
-.transparent-button.kava-cta.hard-cta {
+.transparent-button.dogebsc-cta.hard-cta {
   border-color: #4d2176;
   color: #4d2176;
 }
 
-.transparent-button.kava-cta.hard-cta:hover {
+.transparent-button.dogebsc-cta.hard-cta:hover {
   background-color: #4d2176;
   color: #fff;
 }
@@ -1401,7 +1401,7 @@ ol {
   color: #faf9f8;
 }
 
-.chart-button.supply-active.kava-earn-btn:hover {
+.chart-button.supply-active.dogebsc-earn-btn:hover {
   background-color: #534eff;
 }
 
@@ -1776,7 +1776,7 @@ ol {
   border-color: #06d6a0;
 }
 
-.percent-line-usdx-kava {
+.percent-line-usdx-dogebsc {
   position: relative;
   width: 0px;
   height: 0px;
@@ -1897,17 +1897,17 @@ ol {
   align-items: center;
 }
 
-.heading-hero-wrapper.kava-landing {
+.heading-hero-wrapper.dogebsc-landing {
   width: auto;
 }
 
-.kava-ecosystem-img {
+.dogebsc-ecosystem-img {
   overflow: visible;
   width: auto;
   max-width: 550px;
 }
 
-.kava-ecosystem-img.about {
+.dogebsc-ecosystem-img.about {
   width: 370px;
 }
 
@@ -2553,7 +2553,7 @@ ol {
   max-width: 100%;
 }
 
-.kava-integration {
+.dogebsc-integration {
   position: relative;
   top: -44px;
   right: -48px;
@@ -2698,7 +2698,7 @@ ol {
   grid-template-rows: auto;
 }
 
-.menu-item-kava {
+.menu-item-dogebsc {
   position: relative;
   z-index: 5;
   padding: 25px;
@@ -2708,7 +2708,7 @@ ol {
   color: #1e1e1e;
 }
 
-.menu-item-kava:hover {
+.menu-item-dogebsc:hover {
   background-color: #faf9f8;
 }
 
@@ -2735,7 +2735,7 @@ ol {
   font-weight: 500;
 }
 
-.launch-app.kava-btn-text {
+.launch-app.dogebsc-btn-text {
   color: #ff564f;
   font-size: 15px;
 }
@@ -3155,7 +3155,7 @@ ol {
   box-shadow: 0 50px 25px -50px rgba(32, 53, 90, 0.15), 8px 18px 60px 4px rgba(0, 0, 0, 0.13);
 }
 
-.kava-logo {
+.dogebsc-logo {
   width: 120px;
 }
 
@@ -3222,7 +3222,7 @@ ol {
   margin-top: 5px;
 }
 
-.nav-link-details.launch-app.kava {
+.nav-link-details.launch-app.dogebsc {
   color: #ff564f;
 }
 
@@ -3536,7 +3536,7 @@ ol {
   font-size: 11px;
 }
 
-.percent-line-usdx-kava-2 {
+.percent-line-usdx-dogebsc-2 {
   position: relative;
   width: 0px;
   height: 0px;
@@ -4455,7 +4455,7 @@ ol {
   justify-content: flex-end;
 }
 
-.kava-hero-blur {
+.dogebsc-hero-blur {
   position: absolute;
   left: 311px;
   top: 129px;
@@ -4464,7 +4464,7 @@ ol {
   width: 51px;
 }
 
-.kava-hero-blur.coin-slide {
+.dogebsc-hero-blur.coin-slide {
   left: 1114px;
   top: 185px;
 }
@@ -4536,7 +4536,7 @@ ol {
   width: 408px;
 }
 
-.kava-hero {
+.dogebsc-hero {
   position: absolute;
   left: 162px;
   top: 129px;
@@ -4933,7 +4933,7 @@ ol {
   order: 1;
 }
 
-.kava-hero-2 {
+.dogebsc-hero-2 {
   position: absolute;
   left: 837px;
   top: 237px;
@@ -4943,12 +4943,12 @@ ol {
   width: 150px;
 }
 
-.kava-hero-image {
+.dogebsc-hero-image {
   width: 450px;
   padding-top: 25px;
 }
 
-.kava-hero-image.hard-hero-image {
+.dogebsc-hero-image.hard-hero-image {
   padding-top: 50px;
 }
 
@@ -5260,7 +5260,7 @@ ol {
     overflow: visible;
   }
 
-  .kava-ecosystem-img {
+  .dogebsc-ecosystem-img {
     width: auto;
     max-width: 600px;
   }
@@ -5275,7 +5275,7 @@ ol {
     padding-left: 9vw;
   }
 
-  .kava-hero-image {
+  .dogebsc-hero-image {
     width: 475px;
   }
 }
@@ -5309,7 +5309,7 @@ ol {
     grid-template-columns: 1fr 0.5fr;
   }
 
-  .grid-hero.kava-landing {
+  .grid-hero.dogebsc-landing {
     padding-right: 15vw;
   }
 
@@ -5391,7 +5391,7 @@ ol {
     border-color: #06d6a0;
   }
 
-  .percent-line-usdx-kava {
+  .percent-line-usdx-dogebsc {
     width: 0%;
     height: 0px;
     max-height: 0px;
@@ -5435,12 +5435,12 @@ ol {
     width: auto;
   }
 
-  .heading-hero-wrapper.kava-landing {
+  .heading-hero-wrapper.dogebsc-landing {
     width: auto;
     padding-left: 15vw;
   }
 
-  .kava-ecosystem-img {
+  .dogebsc-ecosystem-img {
     width: auto;
     max-width: 590px;
   }
@@ -5499,7 +5499,7 @@ ol {
     margin-left: 25px;
   }
 
-  .percent-line-usdx-kava-2 {
+  .percent-line-usdx-dogebsc-2 {
     width: 0%;
     height: 0px;
     max-height: 0px;
@@ -5545,7 +5545,7 @@ ol {
     line-height: 14px;
   }
 
-  .kava-hero-blur.coin-slide {
+  .dogebsc-hero-blur.coin-slide {
     top: 206px;
   }
 
@@ -5557,7 +5557,7 @@ ol {
     left: 500vw;
   }
 
-  .kava-hero {
+  .dogebsc-hero {
     right: 18%;
   }
 
@@ -5591,12 +5591,12 @@ ol {
     padding-left: 15vw;
   }
 
-  .kava-hero-2 {
+  .dogebsc-hero-2 {
     left: 924px;
     right: 18%;
   }
 
-  .kava-hero-image {
+  .dogebsc-hero-image {
     width: 500px;
   }
 
@@ -5645,7 +5645,7 @@ ol {
     grid-template-columns: 1.5fr 1fr;
   }
 
-  .grid-hero.kava-landing {
+  .grid-hero.dogebsc-landing {
     padding-right: 18vw;
   }
 
@@ -5705,7 +5705,7 @@ ol {
     margin-bottom: -14px;
   }
 
-  .percent-line-usdx-kava {
+  .percent-line-usdx-dogebsc {
     margin-bottom: -14px;
   }
 
@@ -5730,12 +5730,12 @@ ol {
     width: auto;
   }
 
-  .heading-hero-wrapper.kava-landing {
+  .heading-hero-wrapper.dogebsc-landing {
     width: auto;
     padding-left: 18vw;
   }
 
-  .kava-ecosystem-img {
+  .dogebsc-ecosystem-img {
     overflow: hidden;
     max-width: 630px;
   }
@@ -5795,7 +5795,7 @@ ol {
     margin-bottom: -14px;
   }
 
-  .percent-line-usdx-kava-2 {
+  .percent-line-usdx-dogebsc-2 {
     margin-bottom: -14px;
   }
 
@@ -5820,7 +5820,7 @@ ol {
     padding-left: 15vw;
   }
 
-  .kava-hero-blur.coin-slide {
+  .dogebsc-hero-blur.coin-slide {
     left: 366px;
     top: 83px;
     width: 80px;
@@ -5831,7 +5831,7 @@ ol {
     width: 460px;
   }
 
-  .kava-hero {
+  .dogebsc-hero {
     top: 118px;
     width: 190px;
   }
@@ -5941,13 +5941,13 @@ ol {
     padding-left: 18vw;
   }
 
-  .kava-hero-2 {
+  .dogebsc-hero-2 {
     left: 1293px;
     top: 234px;
     width: 190px;
   }
 
-  .kava-hero-image {
+  .dogebsc-hero-image {
     width: 590px;
   }
 
@@ -6416,11 +6416,11 @@ ol {
     padding-right: 9vw;
   }
 
-  .heading-hero-wrapper.kava-landing {
+  .heading-hero-wrapper.dogebsc-landing {
     width: auto;
   }
 
-  .kava-ecosystem-img {
+  .dogebsc-ecosystem-img {
     width: 640px;
     max-width: 100%;
     margin-top: 50px;
@@ -6531,7 +6531,7 @@ ol {
     width: 590px;
   }
 
-  .kava-integration {
+  .dogebsc-integration {
     top: 19px;
     width: 270px;
   }
@@ -6852,12 +6852,12 @@ ol {
     z-index: 10;
   }
 
-  .kava-hero-blur.coin-slide {
+  .dogebsc-hero-blur.coin-slide {
     left: 342px;
     top: 116px;
   }
 
-  .kava-hero {
+  .dogebsc-hero {
     left: 167px;
     bottom: 0px;
     width: 165px;
@@ -6892,7 +6892,7 @@ ol {
     font-size: 47px;
   }
 
-  .kava-hero-wrap {
+  .dogebsc-hero-wrap {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -6914,7 +6914,7 @@ ol {
     align-self: auto;
   }
 
-  .kava-hero-2 {
+  .dogebsc-hero-2 {
     left: 167px;
     bottom: 0px;
     width: 165px;
@@ -7074,7 +7074,7 @@ ol {
     padding-left: 3vw;
   }
 
-  .grid-hero.kava-landing {
+  .grid-hero.dogebsc-landing {
     padding-top: 60px;
   }
 
@@ -7359,7 +7359,7 @@ ol {
     padding-right: 0vw;
   }
 
-  .kava-ecosystem-img {
+  .dogebsc-ecosystem-img {
     width: auto;
     max-width: 100%;
     padding-right: 20px;
@@ -7707,7 +7707,7 @@ ol {
     max-width: 100%;
   }
 
-  .kava-hero {
+  .dogebsc-hero {
     right: 8%;
     bottom: 2%;
     width: 160px;
@@ -7749,7 +7749,7 @@ ol {
     letter-spacing: -1px;
   }
 
-  .kava-hero-wrap {
+  .dogebsc-hero-wrap {
     padding-right: 9vw;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
@@ -7757,7 +7757,7 @@ ol {
     align-items: flex-start;
   }
 
-  .kava-hero-2 {
+  .dogebsc-hero-2 {
     right: 8%;
     bottom: 2%;
     width: 160px;
@@ -8224,7 +8224,7 @@ ol {
     font-size: 11px;
   }
 
-  .chart-button.supply-active.kava-earn-btn {
+  .chart-button.supply-active.dogebsc-earn-btn {
     font-size: 13px;
   }
 
@@ -8356,7 +8356,7 @@ ol {
     font-size: 13.5px;
   }
 
-  .kava-ecosystem-img.about {
+  .dogebsc-ecosystem-img.about {
     width: auto;
   }
 
@@ -8482,7 +8482,7 @@ ol {
     width: 450px;
   }
 
-  .kava-integration {
+  .dogebsc-integration {
     top: -8px;
     right: -18px;
     width: 200px;
@@ -8800,7 +8800,7 @@ ol {
     width: 330px;
   }
 
-  .kava-hero {
+  .dogebsc-hero {
     left: 124px;
     top: 109px;
     bottom: 5%;
@@ -8928,7 +8928,7 @@ ol {
     line-height: 50px;
   }
 
-  .kava-hero-wrap {
+  .dogebsc-hero-wrap {
     overflow: hidden;
     max-width: 100%;
     -webkit-box-align: start;
@@ -8937,7 +8937,7 @@ ol {
     align-items: flex-start;
   }
 
-  .kava-hero-2 {
+  .dogebsc-hero-2 {
     left: 124px;
     top: 109px;
     bottom: 5%;
