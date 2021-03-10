@@ -1,0 +1,12 @@
+#startearning .w-layout-grid{
+	-ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#startearning .w-layout-grid .binance-logo{
+	height: 80px;
+}
+
+#introduction{
+	flex-direction: row;
+}
