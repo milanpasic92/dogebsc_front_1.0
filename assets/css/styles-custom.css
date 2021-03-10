@@ -9,6 +9,8 @@
 
 #introduction{
 	flex-direction: row;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
 }
 
 #startearning .slider-card{
@@ -19,4 +21,26 @@
 
 .feature-wrap{
 	margin-bottom: 3rem;
+}
+
+.grid-ecosystem.community{
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#list-footer{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	list-style-type: none;
+	text-align: center;
+	margin-bottom: 6rem;
+}
+
+#list-footer li{
+	min-width: 200px;
+}
+
+.content-section.ecosystem{
+	background-image: url("../img/right-1.png"), url("../img/left-1.png"), radial-gradient(circle closest-side at 50% 45%, rgba(83, 78, 255, 0.08), #fff 57%);
 }
