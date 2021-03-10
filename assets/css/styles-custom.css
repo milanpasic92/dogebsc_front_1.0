@@ -112,3 +112,30 @@
 	    box-sizing: border-box;
 	}
 }
+
+.fotoBinance {
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #ffffff4f;
+    width: 85%;
+    margin-top: 22px;
+}
+
+.dogebsc-ecosystem-img {
+	padding-left: 2rem;
+}
+
+.cabezaWhy {
+
+}
+
+.cabezaRoad {
+	
+}
+
+@media screen and (min-width: 1440px){
+.grid-hero.dark {
+    -ms-grid-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
