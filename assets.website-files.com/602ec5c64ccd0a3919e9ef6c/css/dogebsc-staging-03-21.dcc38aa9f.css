@@ -1941,10 +1941,14 @@ ol {
 
 .heading-wrapper {
   max-width: 794px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .heading-wrapper.ecosystem {
   max-width: 600px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .grid-products {
@@ -5447,6 +5451,8 @@ ol {
 
   .heading-wrapper {
     max-width: none;
+    padding-right:30px;
+    padding-left: 30px;
   }
 
   .grid-products {
