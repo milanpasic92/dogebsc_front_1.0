@@ -12,6 +12,7 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -322,6 +323,17 @@ ol {
   display: block;
   margin-top: 5px;
   margin-bottom: 15px;
+  padding-bottom: 50px;
+  color: #1e1e1e;
+  font-size: 3.5ch;
+  line-height: 1.2em;
+}
+
+.tokenHeading{
+  position: relative;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
   color: #1e1e1e;
   font-size: 3.5ch;
   line-height: 1.2em;
@@ -1373,6 +1385,14 @@ ol {
   color: #fff;
 }
 
+.dogebscOutline {
+  position: absolute;
+  left:45vw;
+  padding-top: 45vh;
+  width: 10vw;
+  height: auto;
+}
+
 .chart-button.button-disabled {
   border-color: #b4b9bb;
   color: #b4b9bb;
@@ -1424,10 +1444,6 @@ ol {
 }
 
 .content-section {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   overflow: hidden;
   width: 100vw;
   max-width: 100%;
@@ -2237,6 +2253,8 @@ ol {
 }
 
 .feature-wrap {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2264,6 +2282,7 @@ ol {
 .feature-label {
   color: #b4b9bb;
   font-size: 15px;
+  text-align: center;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -5314,7 +5333,7 @@ ol {
 
   .grid-hero.dogebsc-landing {
     padding-right: 15vw;
-  }
+  } 
 
   .heading-1 {
     max-width: 750px;
@@ -5728,7 +5747,7 @@ ol {
 
   .heading-hero-wrapper {
     width: auto;
-    padding-left: 18vw;
+    padding-left: 10vw;
   }
 
   .heading-hero-wrapper.dark {
