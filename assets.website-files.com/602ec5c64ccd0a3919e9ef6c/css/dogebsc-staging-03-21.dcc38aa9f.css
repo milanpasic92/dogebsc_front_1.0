@@ -323,7 +323,7 @@ ol {
   display: block;
   margin-top: 5px;
   margin-bottom: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   color: #1e1e1e;
   font-size: 3.5ch;
   line-height: 1.2em;
@@ -985,7 +985,7 @@ ol {
 }
 
 .paragraph {
-  margin-bottom: 15px;
+  margin-bottom: 55px;
   color: #7a8386;
   font-size: 1.4ch;
   line-height: 1.4em;
@@ -5482,8 +5482,8 @@ ol {
   }
 
   .navigation-3 {
-    padding-right: 12vw;
-    padding-left: 12vw;
+    padding-right: 9vw;
+    padding-left: 9vw;
   }
 
   .rewards-badge-2 {
@@ -5796,8 +5796,8 @@ ol {
   }
 
   .navigation-3 {
-    padding-right: 18vw;
-    padding-left: 18vw;
+    padding-right: 9vw;
+    padding-left: 9vw;
   }
 
   .percent-line-usdx-busd-2 {
