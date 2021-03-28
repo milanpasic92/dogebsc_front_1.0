@@ -3034,10 +3034,9 @@ ol {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vw;;
   height: 100%;
   max-width: 1300px;
-  margin-right: auto;
   margin-left: auto;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -5981,6 +5980,7 @@ ol {
 }
 
 @media screen and (max-width: 991px) {
+  
   .body {
     background-color: #fff;
   }
@@ -6665,6 +6665,8 @@ ol {
 
   .navigation-3 {
     display: none;
+    padding-right: 8vw;
+    padding-left: 8vw;
   }
 
   .mobile-nav {
@@ -7015,6 +7017,7 @@ ol {
     width: 240px;
     height: 440px;
   }
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -7834,6 +7837,7 @@ ol {
 }
 
 @media screen and (max-width: 479px) {
+  
   .logo {
     display: block;
     height: 35px;
