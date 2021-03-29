@@ -993,6 +993,10 @@ ol {
   letter-spacing: -0.1px;
 }
 
+.paragraphLanding{
+  margin-bottom: 55px;
+}
+
 .paragraph.hero {
   width: 532px;
   font-size: 1.5ch;
@@ -1917,6 +1921,7 @@ ol {
 }
 
 .dogebsc-ecosystem-img {
+
 }
 
 .dogebsc-ecosystem-img.about {
@@ -3180,7 +3185,7 @@ ol {
 }
 
 .dogebsc-logo {
-  width: 60px;
+  width: 45px;
 }
 
 .navigation-3 {
@@ -5279,12 +5284,19 @@ ol {
   height: 610px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 992px) {
+  
+
+  .toDisplayMobile{
+    display: none !important;
+  }
+  
   .grid-hero.about {
     overflow: visible;
   }
 
   .dogebsc-ecosystem-img {
+
 
   }
 
@@ -5304,6 +5316,12 @@ ol {
 }
 
 @media screen and (min-width: 1440px) {
+  
+
+  .toDisplayMobile{
+    display: none !important;
+  }
+
   .nav-div {
     padding-right: 9vw;
     padding-left: 9vw;
@@ -5464,7 +5482,7 @@ ol {
   }
 
   .dogebsc-ecosystem-img {
- 
+
   }
 
   .heading-wrapper {
@@ -5648,15 +5666,19 @@ ol {
 }
 
 @media screen and (min-width: 1920px) {
+
+
+  .toDisplayMobile{
+    display: none !important;
+  }
+
   .nav-div {
     padding-right: 15vw;
     padding-left: 15vw;
   }
 
   .grid-hero {
-    padding-right: 18vw;
-    -ms-grid-columns: 1.5fr 1fr;
-    grid-template-columns: 1.5fr 1fr;
+
   }
 
   .grid-hero.overview-section {
@@ -5980,6 +6002,7 @@ ol {
 }
 
 @media screen and (max-width: 991px) {
+
   
   .body {
     background-color: #fff;
@@ -6169,6 +6192,10 @@ ol {
   .paragraph {
     width: 75%;
     max-width: 100%;
+  }
+
+  .paragraphLanding{
+    margin-bottom: 0px;
   }
 
   .paragraph.products {
@@ -7021,6 +7048,9 @@ ol {
 }
 
 @media screen and (max-width: 767px) {
+  
+
+  
   .body {
     display: -webkit-box;
     display: -webkit-flex;
@@ -7190,6 +7220,10 @@ ol {
 
   .paragraph {
     width: auto;
+  }
+
+  .paragraphLanding{
+    margin-bottom: 0px;
   }
 
   .paragraph.code-type.code {
@@ -8121,6 +8155,10 @@ ol {
     font-size: 15px;
   }
 
+  .paragraphLanding{
+    margin-bottom: 0px;
+  }
+
   .paragraph.hero {
     font-size: 1.3ch;
   }
@@ -8382,6 +8420,7 @@ ol {
   }
 
   .dogebsc-ecosystem-img.about {
+ 
   }
 
   .partner-grid {
@@ -9537,12 +9576,21 @@ ol {
     -ms-grid-column-align: center;
     justify-self: center;
   }
+
+  .toDisplayWeb {
+    display: none !important;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
   #w-node-_974b4d2b-c547-7a30-c35a-8a71828e90b3-94f9a33a {
     -ms-grid-column-align: center;
     justify-self: center;
+  }
+
+  .toDisplayWeb {
+    display: none !important;
   }
 
   #w-node-f8ec3e60-caf2-d8f9-4e61-5d1152fd3dc7-21cfe159 {
