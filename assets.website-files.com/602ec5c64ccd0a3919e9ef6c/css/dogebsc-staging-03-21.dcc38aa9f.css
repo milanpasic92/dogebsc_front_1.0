@@ -2280,6 +2280,14 @@ ol {
   height: auto;
 }
 
+.feature-iconLarge {
+  height: 80px;
+  margin-bottom: 10px;
+  width: 30vw;
+  max-width: 120px;
+  height: auto;
+}
+
 .feature-label {
   color: #b4b9bb;
   font-size: 15px;
@@ -2289,8 +2297,21 @@ ol {
   text-transform: uppercase;
 }
 
+.feature-labelLarge{
+  color: #b4b9bb;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .feature-title{
   font-size: 22px;
+}
+
+.feature-titleLarge{
+  font-size: 26px;
 }
 
 .feature-label.dark {
@@ -7471,6 +7492,10 @@ ol {
     font-size: 12px;
   }
 
+  .feature-labelLarge{
+    font-size: 14px;
+  }
+
   .counter {
     margin-bottom: 0px;
     font-size: 2.5ch;
@@ -7900,6 +7925,10 @@ ol {
 
   .feature-title{
     font-size: 16px;
+  }
+
+  .feature-titleLarge {
+    font-size: 20px;
   }
 
   .sm-btn {
