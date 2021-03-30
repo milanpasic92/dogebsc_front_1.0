@@ -7998,13 +7998,9 @@ ol {
   }
 
   .grid-hero {
-    position: relative;
-    display: block;
-    overflow: hidden;
+    overflow: visible;
     width: 100vw;
     min-height: auto;
-    margin-top: 0px;
-
     padding-bottom: 0vh;
   }
 
