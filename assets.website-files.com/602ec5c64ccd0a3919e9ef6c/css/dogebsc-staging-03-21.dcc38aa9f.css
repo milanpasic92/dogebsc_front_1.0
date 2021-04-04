@@ -324,7 +324,7 @@ ol {
   margin-bottom: 15px;
   padding-bottom: 10px;
   color: #1e1e1e;
-  font-size: 3.5ch;
+  font-size: 2.5ch;
   line-height: 1.2em;
 }
 
@@ -5378,7 +5378,7 @@ ol {
 
   .heading-1 {
     max-width: 750px;
-    font-size: 3.5ch;
+    font-size: 2.5ch;
     line-height: 1.2em;
   }
 
@@ -5718,7 +5718,7 @@ ol {
   }
 
   .heading-1 {
-    font-size: 3.5ch;
+    font-size: 2.5ch;
     line-height: 1.2em;
   }
 
@@ -6089,7 +6089,7 @@ ol {
 
   .heading-1 {
     padding-left: 0px;
-    font-size: 3.5ch;
+    font-size: 2.5ch;
     line-height: 1.2em;
   }
 
@@ -7155,7 +7155,7 @@ ol {
   }
 
   .heading-1 {
-    font-size: 2.3ch;
+    font-size: 1.8ch;
     line-height: 1.2em;
   }
 
@@ -8020,7 +8020,7 @@ ol {
     width: auto;
     max-width: none;
     min-width: auto;
-    font-size: 2.3ch;
+    font-size: 1.8ch;
     line-height: 1.2em;
   }
 
