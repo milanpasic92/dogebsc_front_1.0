@@ -6585,7 +6585,7 @@ ol {
   }
 
   .partner-card.social-card {
-    min-height: 228px;
+    height: 150px;
   }
 
   .visa-card {
