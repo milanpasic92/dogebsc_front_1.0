@@ -331,7 +331,7 @@ ol {
 .tokenHeading{
   position: relative;
   display: block;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 50px;
   color: #1e1e1e;
   font-size: 35px;
@@ -2255,8 +2255,8 @@ ol {
 }
 
 .feature-wrap {
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
