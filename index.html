@@ -146,6 +146,7 @@
             
             <div class="" style="">
                 <h1 style="text-align: center; padding-top: 20px; padding-bottom: 40px; font-size: 30px; font-weight: 300;" class=""><span class="heading-400" style="line-height: 80px; font-size: 40px">DogeBSC.<br></span>Utility, Community, Charity.</h1>
+                <p style="text-align: center">Live price: <span id="price_placeholder">$0</span></p>
                 <!-- <p style="font-size:min(3.5vw, 20px); line-height: 1.7em;" class=" paragraphLanding ">We use our brand to create real value for our community, while doing some good at the same time. All on the Binance Smart Chain.</p> -->
                 <a style="margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto; line-height: 20px; font-weight: 400;" href="https://t.me/DogeCoinBSC" class="transparent-button dogebsc-cta w-button">Join our Telegram</a> 
                 <a style="margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto; line-height: 20px; font-weight: 400;" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x1060ae67986a1a5A02eE023E3F5DfC2f5D04eBb4&inputCurrency=BNB" class="transparent-button dogebsc-cta w-button">Trade on PancakeSwap</a> 
@@ -367,5 +368,22 @@
             $(".counter").addClass("animated fadeInDownBig");
             $("h3").addClass("animated fadeIn");
         </script>
+
+        <script>
+            // PancakeSwap OpenAPI:
+            // https://api.pancakeswap.info/api/summary
+            // https://api.pancakeswap.info/api/tokens
+
+            let tokenCode = '0x1060ae67986a1a5A02eE023E3F5DfC2f5D04eBb4';
+            let xmlHttp = new XMLHttpRequest();
+
+            xmlHttp.open( "GET", "https://api.pancakeswap.info/api/tokens", false );
+            xmlHttp.send( null );
+
+            let pricesData = JSON.parse(xmlHttp.responseText);
+            let dogeBscPrice = pricesData.data[tokenCode];
+            $('#price_placeholder').html('&#8593; $' + dogeBscPrice.price).css('color', '#18e218');
+        </script>
+
     </body>
 </html>
